@@ -12,13 +12,15 @@ input{
 }
 #gameBoard {
   display:grid;
-  grid-template-columns: 40px 40px 40px;
-  grid-template-rows: 40px 40px 40px;
+  grid-template-columns: 80px 80px 80px;
+  grid-template-rows: 80px 80px 80px;
   gap: 10px;
-  justify-content: center;
-  padding-bottom: 40px
-}
-#gameBoard * {
-  border: 1px black solid;
   padding: 50px;
-}
+  justify-content: center;
+ 
+  }
+  .square{
+    border: 1px black solid;
+    text-align: center;
+    padding: 20px;
+  }
